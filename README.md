@@ -17,4 +17,4 @@ Most scripts take the top 10 000 streamers (ranked by revenue) leaked list as in
  - **Game_Playd_Twitch_Streamer.py** : Script allowing, for a given list of streamer, to scrap the twitchstats.net database for the game played by the streamer. Return for each streamer all the game played (for at least an hour over the course of a year) over the 2019-2021 period. 
  - **Scrapp_Twitch_URL** : Script allowing to collect the URL present in the Twitch streamer description. From the URL to the different description page return a set of generic URL present. 
  - **Streamers_Subscribers.py** : 
- - **Game_Genre.py** :
+ - **Game_Genre.py** : Scrit which using Twitch API allows, for a list of game, to gather the genre of the games. Matches every game name scrapped to a game present in the database and for every game returns a list of associeted genre.

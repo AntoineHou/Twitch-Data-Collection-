@@ -4,11 +4,17 @@ Collection of scripts related to the Twitch platform data written in the framewo
 
 # Files
 
-# Files
-
 The repository is composed of different python script allowing to reproduce the data collection. 
 The scripts allow to gather data from different sources both via API and web scrapping but do not contain the relevant key and proxy to conduct future collection. 
 Most scripts take the top 10 000 streamers (ranked by revenue) leaked list as input. The list wont be provided here. 
+
+# Data repository and excluded data/script 
+
+The data used in the study will be hosted in the Indicies Database. 
+As said in the study, data and scripts relating the Streamers revenue and time series relating to streamers vierwership won't be made available.
+Those data can be found here : 
+- https://streamscharts.com/ (via API subscription) 
+- https://twitch.pages.dev/ (via web scrapping) 
 
 ## Script description 
 

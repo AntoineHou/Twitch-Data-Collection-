@@ -12,8 +12,8 @@ import random
 from sympy.solvers import solve
 from sympy import Symbol
 
-client_id= "koca3lkve8h9rmnre3y972peqf43a0"
-client_secret= "41j3bshs991r359xjfhk22q3eoqd0x"
+client_id= ""
+client_secret= ""
 access_code = requests.post(("https://id.twitch.tv/oauth2/token?client_id={}&client_secret={}&grant_type=client_credentials").format(client_id, client_secret))
 access_token = json.loads(access_code.text)
 access_token = access_token['access_token']

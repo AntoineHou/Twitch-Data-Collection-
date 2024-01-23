@@ -10,9 +10,9 @@ from igdb.wrapper import IGDBWrapper
 from fuzzywuzzy import fuzz
 
 
-authURL = 'https://id.twitch.tv/oauth2/token'
-client_id ='koca3lkve8h9rmnre3y972peqf43a0' 
-client_secret = '8mjz6bopi01013qd848q9rlxhhagf8'
+authURL = ''
+client_id ='' 
+client_secret = ''
 
 AutParams = {'client_id': client_id,
              'client_secret': client_secret,
